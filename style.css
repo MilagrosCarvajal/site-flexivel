@@ -14,11 +14,6 @@ body {
     background-color: #E2F7CE
 }
 
-header{
-    padding:;
-    
-}
-
 header h1{
     height: 80px;
     background-color: #e8bf56;
@@ -41,7 +36,73 @@ header p{
 }
 
 section.flex-content{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+article.text-media{
+display: flex;
+flex-flow: row wrap-reverse;
+}
+article.media-text{
+display:flex;
+flex-flow: row wrap;
+align-items: center;
+}
+
+article div.text{
+    flex: 1 1 500px;
+}
+
+article div.text2{
+    padding: 15px;
+    margin: 15px 10px;
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.426);
+}
+
+article div.media{
+    flex: 1 1 400px;
+
+    margin: 15px 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.426);
+    
+}
+
+.text-principal{
+    text-align: center;
+}
+
+div.media img, div.media iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+section.flex-content h2{
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+    color:#e4844a;
+    
+}
+
+section.flex-content p {
+    padding: 15px;
+}
+
+section.flex-content .p-artigos{
+    background-color: #ff9f6481;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.362);
 }
 
 section.normal{
@@ -79,3 +140,5 @@ footer{
     color:white ;
     background-color: #452632;
 }
+
+
